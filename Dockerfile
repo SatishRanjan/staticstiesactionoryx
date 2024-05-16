@@ -1,4 +1,4 @@
-FROM SatishRanjan/basic-deploy-oryx:latest
+FROM sratdocker/basic-deploy-oryx:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
